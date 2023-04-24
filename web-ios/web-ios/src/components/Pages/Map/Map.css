@@ -1,0 +1,49 @@
+.Coordinates {
+    display: flex;
+    flex-direction: column;
+    background-color: #2980b9;
+    color: white;
+    border: 2px solid #282c34;
+    width: 86vw;
+    height: 5vh;
+    font-size: small;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.Coordinates div {
+    margin-bottom: 5px
+}
+
+
+.Coordinates h3 {
+    margin-bottom: 0;
+}
+
+.x-coord {
+    margin-top: 0;
+    margin-right: 5px;
+}
+
+.xy-coord {
+    display: flex;
+    margin-top: 0;
+}
+
+.MapPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Graph {
+    margin: 5px;
+    margin-right: 10px;
+    background-color: black;
+    border: solid #282c34;
+    width: 86vw;
+    height: 75vh;
+}
+
+

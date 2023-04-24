@@ -1,0 +1,39 @@
+.FuelPage {
+  display: flex;
+  justify-content: space-between;
+}
+
+.totalTank {
+ display: flex;
+ width: 30%;
+}
+.totalTank .ProgressBar {
+  margin-top: 70px;
+}
+
+.individualTanks {
+  display: flex;
+  margin-top: 120px;
+  color: white;
+}
+
+.ITlabel {
+  margin-left: 100px;
+}
+
+.individualTanks div {
+  display: flex;
+  flex-direction: column;
+}
+
+.individualTanks .ProgressBar {
+  margin-left: 150px;
+  margin-top: 10px;
+}
+
+.TotalTankLabel {
+  color: rgba(255, 255, 255, 0.789);
+  margin-top: 280px;
+  margin-left: 10px;
+}
+

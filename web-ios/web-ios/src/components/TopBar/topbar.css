@@ -1,0 +1,61 @@
+
+.top-bar {
+  display: flex;
+  width: 87vw;
+}
+
+.informer {
+  flex-direction: row;
+  background-color: #2980b9;
+  color: white;
+  border: 2px solid #282c34;
+  border-top: none;
+  height: 10vh;
+  min-height: 75px; 
+  width: 33%;
+}
+
+.Informers {
+  display: flex;
+  color: white;
+  width: 45vw;
+  font-size: smaller;
+}
+
+.Toggle {
+  display: flex;
+  background-color: #2980b9;
+  color: white;
+  height: 10vh;
+  width: 45vw;
+  min-height: 75px; 
+}
+
+.toggle {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 2px solid #282c34;
+  border-right: none;
+  border-top: none;
+  font-size: 9px;
+  justify-content: space-between;
+}
+
+.toggle button:disabled {
+  background-color: grey;
+}
+
+.button {
+  background-color: rgb(6, 163, 6);
+  color: white;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  
+}
+.tactive .button{
+  background-color: red;
+}
+.button:hover {
+  cursor:pointer;
+}

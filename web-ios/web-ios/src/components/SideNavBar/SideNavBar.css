@@ -1,0 +1,26 @@
+.NavTab {
+    width: 10vw;
+    flex-direction: column;
+    justify-content: left;
+    font-style: color white;
+    color: white;
+    height: 95vh;
+    min-width: 125px;
+  }
+  
+  .navItem {
+    padding: 10px;
+    border-bottom: 2px solid #282c34;
+    border: 2px solid #282c34;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #265E87;
+    height: calc(25% - 20px);
+    display: flex;
+  }
+  
+  .active {
+    background-color: #2980b9;
+  }
+  

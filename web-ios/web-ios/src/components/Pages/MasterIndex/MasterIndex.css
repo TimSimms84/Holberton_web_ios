@@ -1,0 +1,117 @@
+
+/* Fuel Styles */
+.fuel {
+    display: flex;
+    background-color: #2980b9;
+    color: white;
+    border: 2px solid #282c34;
+    width: 20vw;
+    height: 20vh;
+    font-size: large;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 110px;
+}
+
+
+  /* Radio Styles */
+.radio {
+    width: 20vw;
+    height: 20vh;
+    min-height: 150px;
+    font-size: 10px;
+    background-color:#2980b9;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+u {
+    text-decoration-color:red;
+}
+
+.radio-tuning-container {
+    position: relative;
+    margin-top: 5px;
+}
+
+.radio-indicators {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    font-size: 12px;
+    height: fit-content;
+}
+
+.T-R, .T-R-dots {
+    display: flex;
+    flex-direction: column;
+}
+.T-R-dots {
+    justify-content: space-around;
+    margin-left: 5%;
+}
+
+.dot {
+    background-color: green;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.dActive {
+    background: red;
+}
+
+/* IOS Status Styles */
+
+.IOSstatus {
+    width: 20vw;
+    height: 15vh;
+    font-size: 10px;
+    background-color:#2980b9;
+    color: white;
+    border: 2px solid #282c34;
+    font-size: 14px;
+}
+
+.IOSstatus h3:first-of-type {
+    margin-top: 5%;
+}
+
+/* MalfList Styles */
+
+.malfunctionsList {
+    background: red;
+}
+
+.MalfList {
+    width: 19vw;
+    height: 20vh;
+    font-size: 13px;
+    background-color:#2980b9;
+    color: white;
+    border: 2px solid #282c34;
+    min-height: 110px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.outerMalfList {
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.658);
+}
+
+.MalfList li {
+    list-style-type: none;
+    
+}
+.MalfList h3 {
+    margin-top: 0;
+    padding: 10px;
+}

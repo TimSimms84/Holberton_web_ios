@@ -1,0 +1,28 @@
+
+.App-Footer {
+    background-color: #222F3E;
+    display: block;
+    width: 100vw;
+    height: 5vh;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+}
+  
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+  
+.Hol {
+    color: rgb(211, 34, 49);
+    padding-right: 2.5%;
+}
+
+.digital-clock div {
+  margin-top: 5px;
+  margin-left: 6px;
+  font-size: 30px;
+}

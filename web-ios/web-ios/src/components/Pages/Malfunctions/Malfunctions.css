@@ -1,0 +1,40 @@
+.MalfunctionsPage {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    height: 90%;
+    max-height: 90vh;
+    flex-wrap: wrap ;
+    overflow: hidden;
+    
+}
+
+.Malfunctions {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: left;
+    flex: 1 1 auto;
+    max-height: 90vh;
+    overflow: hidden;
+}
+
+.MalfItem {
+    color: white;
+    background-color: grey;
+    height: 40px;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    font-size: larger;
+    vertical-align: center;
+    width: 45%;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.MalfItem:hover {
+    background-color: rgb(145, 144, 144);
+    cursor: pointer;
+}
