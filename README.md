@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a web-based instructor operator station for CymSTAR. This was a capstone project at Holberton Tulsa done by Tim Simms, Trenton Sims, and Blake Stewart. This project uses a Rust based back end to connect to a shared memory segment and a Warp based web server that allows users to read and change variables in the shared memory. The front end is written in React and uses the Material UI framework.
+This is a web-based instructor operator station for CymSTAR. This was a capstone project at Holberton Tulsa done by [Tim Simms](https://github.com/TimSimms84), [Trenton Sims](https://github.com/tsims115), and [Blake Stewart](https://github.com/Acochisse). This project uses a Rust based back end to connect to a shared memory segment and a Warp based web server that allows users to read and change variables in the shared memory. The front end is written in React.
 
 
 ## This repo is not hosting working code
